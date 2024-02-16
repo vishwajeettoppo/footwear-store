@@ -49,7 +49,7 @@ const Hero = () => {
           height={500}
           className=" object-contain relative z-10"
         />
-        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[15%] max-sm:px-6">
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[10%] sm:left-[15%] max-sm:px-6">
           {shoes.map((item, index) => (
             <div key={index}>
               <ShoeCard
